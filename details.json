@@ -39,10 +39,10 @@
                 "Name": "Image Proccessing"
             },
             {
-                "Name": "MQTT"
+                "Name": "MQTT/MQTT ACL"
             },
             {
-                "Name": "Docker"
+                "Name": "Docker/DockerCompose"
             },
             {
                 "Name": "HTML & CSS"
@@ -52,7 +52,25 @@
             },
             {
                 "Name": "Arduino"
-            }
+            },
+            {
+                "Name": "Esp 8266/32"
+            },
+            {
+                "Name": "Redis/Rabbitmq"
+            },
+            {
+                "Name": "PCB Design Eagle"
+            },
+            {
+                "Name": "Lora/LPWAN"
+            },
+            {
+                "Name": "Git/Github/Gitlab"
+            },
+            {
+                "Name": "NRF/Ble Modules"
+            }            
         ],
         "Skills": [
             {
@@ -69,6 +87,9 @@
             },
             {
                 "Name": "Creative"
+            },
+            {
+                "Name": "R&D is my thing"
             }
         ],
         "Educations": [
@@ -106,7 +127,7 @@
                 "city": "Tehran",
                 "company": "Asia Petro Gas",
                 "mode": "Part time Remote",
-                "descriptions": ""
+                "descriptions": "Part time IOT developer and Lead the Project called 'PingIn' which is for indoor navigation systems"
             },
             {
                 "from": "2018-10",
@@ -115,7 +136,7 @@
                 "city": "Finland",
                 "company": "Mantranic",
                 "mode": "Part time Remote",
-                "descriptions": ""
+                "descriptions": "Part time Developer created hardwares such as Mantranic-dev Board, Mantranic-Node Board and IOT Backend platform"
             },
             {
                 "from": "2018-10",
@@ -124,7 +145,7 @@
                 "city": "karaj",
                 "company": "Net College Batrtar",
                 "mode": "Part time",
-                "descriptions": ""
+                "descriptions": "Teaching Python, IOT, Arduino,Security and Django"
             },
             {
                 "from": "2017-6",
@@ -133,11 +154,9 @@
                 "city": "karaj",
                 "company": "Shabdiz Telecom Network",
                 "mode": "Full time",
-                "descriptions": ""
+                "descriptions": "So many pojects happend during the period i have been here that mostly can be found in my linkedin posts"
             }
         ],
-        "Achievements": [
-            
-        ]
+        "Achievements": []
     }
 }
