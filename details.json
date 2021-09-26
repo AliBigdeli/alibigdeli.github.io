@@ -1,0 +1,143 @@
+{
+    "Profile": {
+        "General": {
+            "Avatar": "https://avatars.githubusercontent.com/u/29748439",
+            "FirstName": "Ali",
+            "LastName": "Bigdeli",
+            "Email": "bigdeli.ali3@gmail.com",
+            "Phone": "+989124610183",
+            "BirthDate": "1993/02/24 - 1371/12/05",
+            "Address": "Karaj."
+        },
+        "Socials": [
+            {
+                "icon": "https://icon-library.com/images/linkedin-png-icon/linkedin-png-icon-6.jpg",
+                "name": "Linkedin",
+                "link": "https://www.linkedin.com/in/thealibigdeli/"
+            }
+        ],
+        "LangTech": [
+            {
+                "Name": "MCITP and Netowrk+"
+            },
+            {
+                "Name": "Python"
+            },
+            {
+                "Name": "Django"
+            },
+            {
+                "Name": "Django Restframework"
+            },
+            {
+                "Name": "Django Channels & Celery"
+            },
+            {
+                "Name": "Async Programming"
+            },
+            {
+                "Name": "Image Proccessing"
+            },
+            {
+                "Name": "MQTT"
+            },
+            {
+                "Name": "Docker"
+            },
+            {
+                "Name": "HTML & CSS"
+            },
+            {
+                "Name": "JavaScript"
+            },
+            {
+                "Name": "Arduino"
+            }
+        ],
+        "Skills": [
+            {
+                "Name": "Self Study"
+            },
+            {
+                "Name": "Curious"
+            },
+            {
+                "Name": "Tech Lover"
+            },
+            {
+                "Name": "Fast Learner"
+            },
+            {
+                "Name": "Creative"
+            }
+        ],
+        "Educations": [
+            {
+                "from": 2018,
+                "to": "",
+                "grade": "Master",
+                "in": "AI and Robotics",
+                "institute": "Qazvin Azad University",
+                "descriptions": ""
+            },
+            {
+                "from": 2012,
+                "to": 2016,
+                "grade": "bachelor",
+                "in": "Information Technology",
+                "institute": "Zanjan Azad University",
+                "descriptions": ""
+            }
+        ],
+        "Work": [
+            {
+                "from": "2016",
+                "to": "Present",
+                "title": "Founder",
+                "city": "karaj",
+                "company": "ICC-ARIA",
+                "mode": "Part time",
+                "descriptions": "Intelligent Communication Control Aria is place to learn development and progress in the field of Internet of Things, Artificial Intelligence, Business Intelligence, Backend and Front development and so on."
+            },
+            {
+                "from": "2021-2",
+                "to": "2021-9",
+                "title": "R&D Manager and Developer",
+                "city": "Tehran",
+                "company": "Asia Petro Gas",
+                "mode": "Part time Remote",
+                "descriptions": ""
+            },
+            {
+                "from": "2018-10",
+                "to": "2021-9",
+                "title": "R&D Manager and Developer",
+                "city": "Finland",
+                "company": "Mantranic",
+                "mode": "Part time Remote",
+                "descriptions": ""
+            },
+            {
+                "from": "2018-10",
+                "to": "2020-8",
+                "title": "Teacher",
+                "city": "karaj",
+                "company": "Net College Batrtar",
+                "mode": "Part time",
+                "descriptions": ""
+            },
+            {
+                "from": "2017-6",
+                "to": "2020-5",
+                "title": "IOT and Ai Developer",
+                "city": "karaj",
+                "company": "Shabdiz Telecom Network",
+                "mode": "Full time",
+                "descriptions": ""
+            }
+        ],
+        "Achievements": [
+            
+        ]
+    }
+}
