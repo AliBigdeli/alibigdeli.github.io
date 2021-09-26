@@ -1,22 +1,27 @@
 $.getJSON('details.json', function (data) {
-    $("#Avatar").attr("src", data.Profile.General.Avatar);
-    $('h3#Name').text(data.Profile.General.FirstName + " " + data.Profile.General.LastName);
-    $('#Email').text(data.Profile.General.Email);
-    $("a#Email").attr("href",`mailto:${data.Profile.General.Email}`);
-    $('#Phone').text(data.Profile.General.Phone);
-    $('#BirthDate').text(data.Profile.General.BirthDate);
-    $('#Address').text(data.Profile.General.Address);
-    for (let skill of data.Profile.LangTech) {
-      $("#LangTech").append("<div class=\"title text-white\">" + skill.Name + "</div>");
-    }
-    for (let skill of data.Profile.Skills) {
-      $("#Skills").append("<div class=\"title text-white\">" + skill.Name + "</div>");
-    }
-    for (let object of data.Profile.Socials) {
-      $("#Socials").append(`<div class="title text-white py-1"><a class="link-light text-decoration-none" href="${object.link}"><img src="${object.icon}" width="25" height="25"> ${object.name} </a></div>`);
-    }
-    for (let object of data.Profile.Educations) {
-      $("#Educations").append(`<div class="jobster-candidate-timeline">
+  $('meta#ogtitle').attr("content", `${data.Profile.General.FirstName} ${data.Profile.General.LastName} Resume`);
+  $('meta#ogurl').attr("content", window.location.href);
+  $('meta#ogimage').attr("content", data.Profile.General.Avatar);
+
+  $("#Avatar").attr("src", data.Profile.General.Avatar);
+  $('h3#Name').text(data.Profile.General.FirstName + " " + data.Profile.General.LastName);
+  $('title').text(`${data.Profile.General.FirstName} ${data.Profile.General.LastName} Resume`);
+  $('#Email').text(data.Profile.General.Email);
+  $("a#Email").attr("href", `mailto:${data.Profile.General.Email}`);
+  $('#Phone').text(data.Profile.General.Phone);
+  $('#BirthDate').text(data.Profile.General.BirthDate);
+  $('#Address').text(data.Profile.General.Address);
+  for (let skill of data.Profile.LangTech) {
+    $("#LangTech").append("<div class=\"title text-white\">" + skill.Name + "</div>");
+  }
+  for (let skill of data.Profile.Skills) {
+    $("#Skills").append("<div class=\"title text-white\">" + skill.Name + "</div>");
+  }
+  for (let object of data.Profile.Socials) {
+    $("#Socials").append(`<div class="title text-white py-1"><a class="link-light text-decoration-none" href="${object.link}"><img src="${object.icon}" width="25" height="25"> ${object.name} </a></div>`);
+  }
+  for (let object of data.Profile.Educations) {
+    $("#Educations").append(`<div class="jobster-candidate-timeline">
         <div class="jobster-timeline-item">
           <div class="jobster-timeline-cricle">
             <i class="far fa-circle"></i>
@@ -31,9 +36,9 @@ $.getJSON('details.json', function (data) {
           </div>
         </div>
       </div>`);
-    }
-    for (let object of data.Profile.Work) {
-      $("#Work").append(`<div class= "jobster-candidate-timeline" >
+  }
+  for (let object of data.Profile.Work) {
+    $("#Work").append(`<div class= "jobster-candidate-timeline" >
       <div class="jobster-timeline-item">
         <div class="jobster-timeline-cricle">
           <i class="far fa-circle"></i>
@@ -48,15 +53,15 @@ $.getJSON('details.json', function (data) {
         </div>
       </div>                    
       </div>`);
-    }
-    if (data.Profile.Achievements.length>0){
-      ('#Awards').text(`<div class="timeline-box mt-4">
+  }
+  if (data.Profile.Achievements.length > 0) {
+    ('#Awards').text(`<div class="timeline-box mt-4">
               <h4 class="resume-experience-title">Awards:</h4>
               <div id="Achievements"></div>
             </div>`);
-    }
-    for (let object of data.Profile.Achievements) {
-      $("#Achievements").append(`<div class="jobster-candidate-timeline">
+  }
+  for (let object of data.Profile.Achievements) {
+    $("#Achievements").append(`<div class="jobster-candidate-timeline">
                 <div class="jobster-timeline-item">
                   <div class="jobster-timeline-cricle">
                     <i class="far fa-circle"></i>
@@ -70,5 +75,5 @@ $.getJSON('details.json', function (data) {
                   </div>
                 </div> 
               </div>`)
-    }
-  });
+  }
+});
