@@ -2,6 +2,7 @@ $.getJSON('details.json', function (data) {
     $("#Avatar").attr("src", data.Profile.General.Avatar);
     $('h3#Name').text(data.Profile.General.FirstName + " " + data.Profile.General.LastName);
     $('#Email').text(data.Profile.General.Email);
+    $("a#Email").attr("href",`mailto:${data.Profile.General.Email}`);
     $('#Phone').text(data.Profile.General.Phone);
     $('#BirthDate').text(data.Profile.General.BirthDate);
     $('#Address').text(data.Profile.General.Address);
@@ -10,6 +11,9 @@ $.getJSON('details.json', function (data) {
     }
     for (let skill of data.Profile.Skills) {
       $("#Skills").append("<div class=\"title text-white\">" + skill.Name + "</div>");
+    }
+    for (let object of data.Profile.Socials) {
+      $("#Socials").append(`<div class="title text-white py-1"><a class="link-light text-decoration-none" href="${object.link}"><img src="${object.icon}" width="25" height="25"> ${object.name} </a></div>`);
     }
     for (let object of data.Profile.Educations) {
       $("#Educations").append(`<div class="jobster-candidate-timeline">

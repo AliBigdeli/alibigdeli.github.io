@@ -11,9 +11,29 @@
         },
         "Socials": [
             {
-                "icon": "https://icon-library.com/images/linkedin-png-icon/linkedin-png-icon-6.jpg",
+                "icon": "https://icons-for-free.com/iconfiles/png/512/linkedin+square+icon-1320168278649782468.png",
                 "name": "Linkedin",
                 "link": "https://www.linkedin.com/in/thealibigdeli/"
+            },
+            {
+                "icon": "https://icons-for-free.com/iconfiles/png/512/youtube+icon-1320194863618940222.png",
+                "name": "Youtube",
+                "link": "https://youtube.com/TheAliBigdeli"
+            },
+            {
+                "icon": "https://icons-for-free.com/iconfiles/png/512/instagram+instagram+new+design+logo+social+media+icon-1320184016084463641.png",
+                "name": "Instagram",
+                "link": "https://instagram.com/TheAliBigdeli"
+            },
+            {
+                "icon": "https://icons-for-free.com/iconfiles/png/512/bot+chat+message+telegram+icon-1320168256174387607.png",
+                "name": "Telegram",
+                "link": "https://t.me/blackfox01"
+            },
+            {
+                "icon": "https://icons-for-free.com/iconfiles/png/512/github+logo+social+social+network+website+icon-1320191930698657711.png",
+                "name": "Github",
+                "link": "https://github.com/alibigdeli"
             }
         ],
         "LangTech": [
@@ -121,6 +141,15 @@
                 "descriptions": "Intelligent Communication Control Aria is place to learn development and progress in the field of Internet of Things, Artificial Intelligence, Business Intelligence, Backend and Front development and so on."
             },
             {
+                "from": "2021-6",
+                "to": "Present",
+                "title": "Teacher",
+                "city": "Tehran",
+                "company": "Maktabkhooneh.org",
+                "mode": "Part time",
+                "descriptions": "Creating high quality tutorial is hard and thats why i did collaborate with a better team and company which turns out to be maktabkhooneh"
+            },
+            {
                 "from": "2021-2",
                 "to": "2021-9",
                 "title": "R&D Manager and Developer",
@@ -155,6 +184,15 @@
                 "company": "Shabdiz Telecom Network",
                 "mode": "Full time",
                 "descriptions": "So many pojects happend during the period i have been here that mostly can be found in my linkedin posts"
+            },
+            {
+                "from": "2015-10",
+                "to": "2017-5",
+                "title": "Passive Network",
+                "city": "Teharan",
+                "company": "Parchista",
+                "mode": "Full time",
+                "descriptions": "helping with network duties and BMS projects"
             }
         ],
         "Achievements": []
