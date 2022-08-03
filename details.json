@@ -133,12 +133,21 @@
         "Work": [
             {
                 "from": "2021-9",
-                "to": "Present",
+                "to": "2022-3",
+                "title": "R&D Manager",
+                "city": "Dubai, United Arab Emirates - Dubai",
+                "company": "WoMaster Middle East",
+                "mode": "Full time Dubai",
+                "descriptions": "Moved from iran office and working in place in Dubai"
+            },
+            {
+                "from": "2021-9",
+                "to": "2022-3",
                 "title": "R&D Manager",
                 "city": "Dubai, United Arab Emirates - Remote",
                 "company": "WoMaster Middle East",
                 "mode": "Full time Remote",
-                "descriptions": ""
+                "descriptions": "Working on several projects remotely based on iot communications"
             },
             {
                 "from": "2016",
@@ -152,7 +161,7 @@
             {
                 "from": "2021-6",
                 "to": "Present",
-                "title": "Teacher",
+                "title": "Tutor",
                 "city": "Tehran",
                 "company": "Maktabkhooneh.org",
                 "mode": "Part time",
